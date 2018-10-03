@@ -20,7 +20,7 @@ services:
 
     phpminds-php:
         build: docker/php
-        image: phpminds-php:php71
+        image: phpminds-php:php72
         restart: always
         volumes:
             - .:/app
